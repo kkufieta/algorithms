@@ -7,6 +7,7 @@ def smallest_positive(in_list):
     return 0
 
 
+# TESTS
 class SmallestPositiveTest(unittest.TestCase):
     def run_test(self, in_list, expected_output):
         self.assertEqual(smallest_positive(in_list), expected_output)
